@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Hueseum",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
   "dependencies": {
     "async": "^2.6.1",
     "async-each-series": "^1.1.0",
@@ -28,10 +32,6 @@
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^15.4.2",
     "webpack": "^4.25.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
   },
   "engines": {
     "node": "10.10.0",
