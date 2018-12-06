@@ -2,7 +2,6 @@
   "name": "huseum",
   "version": "1.0.0",
   "description": "Hueseum",
-  "main": "index.js",
   "scripts": {
     "start": "node app.js",
   },
@@ -10,6 +9,7 @@
     "node": "10.10.0",
     "npm": "6.4.1"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mariekonopacki/hueseum.git"
