@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-
+  },
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.4.1"
   },
   "dependencies": {
     "async": "^2.6.1",
@@ -33,10 +36,6 @@
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^15.4.2",
     "webpack": "^4.25.1"
-  },
-  "engines": {
-    "node": "10.10.0",
-    "npm": "6.4.1"
   },
   "repository": {
     "type": "git",
