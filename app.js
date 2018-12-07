@@ -748,6 +748,9 @@ app.get('/painting/:painting_id/favorite', (req, res) => {
 });
 
 // Listen on socket
-app.listen(port, hostname, () => {
-  console.log(`Server running on http://${hostname}:${port}/`);
+app.listen(process.env.PORT || 3000 ,function(){
+    console.log("up and running on port "+process.env.PORT);
 });
+// app.listen(port, hostname, () => {
+//   console.log(`Server running on http://${hostname}:${port}/`);
+// });
