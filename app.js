@@ -16,7 +16,7 @@ require('cross-fetch/polyfill');
 var crypto = require('crypto');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var session = require('express-session')
+var session = require('cookie-session')
 
 
 // server config
