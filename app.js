@@ -33,7 +33,11 @@ app.use(fileUpload({
   limits: { fileSize: 50 * 1024 * 1024 },
 }));
 app.use(require('body-parser').urlencoded({ extended: true }));
-app.use(session({ secret: 'collard greens', cookie: { maxAge: 3600000 }}))
+app.use(session({ secret: 'collard greens',
+                  cookie: { maxAge: 3600000 },
+                  proxy: true,
+                  resave: true,
+                  saveUninitialized: true}))
 app.use(passport.initialize());
 app.use(passport.session());
 // app.use(require('./middlewares/populateUserData'));
